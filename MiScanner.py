@@ -11,7 +11,7 @@ class MiScanner:
         "DISTINCT": TipoToken.DISTINCT,
     }
 
-    def _init_(self, source):
+    def __init__(self, source):
         self.source = source + " "
         self.tokens = []
 

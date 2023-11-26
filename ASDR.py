@@ -2,7 +2,7 @@ from TipoToken import TipoToken
 
 
 class ASDR:
-  def _init_(self, tokens):
+  def __init__(self, tokens):
       self.i = 0
       self.hayErrores = False
       self.preanalisis = tokens[self.i] if tokens else None
